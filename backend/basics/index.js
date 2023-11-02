@@ -1,0 +1,12 @@
+const calc = require("./calculator.js")
+const print = require("./printer.js")
+const fruits = require("./fruits.js")
+
+print(calc)
+const sum = calc.sum(2, 3)
+const subs = calc.sub(4, 1)
+const multi = calc.mult(5, 5)
+print(`The Addition is:  ${sum}`)
+print(`The Subtraction is: ${subs}`)
+print(`The Multiplication is:  ${multi}`)
+print(`First Fruit is: ${fruits.fruit1}\nSecond Fruit is: ${fruits.fruit2}`)
